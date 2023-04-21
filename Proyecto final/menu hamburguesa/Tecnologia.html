@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Noticia_5.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/415c51a66d.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="img/WhatsApp_Image_2023-03-11_at_12.57.26_PM-removebg-preview.png">
+    <title>Noticias</title>
+</head>
+<body>
+<!--::::Menu Superior::::-->
+<nav class="Menu-superior">
+    <h1 class="ti">El Pueblo Informa</h1>
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <a href="https://www.youtube.com/channel/UCAOPzbyJ3J-hwAVx-Ia6ptA"><i class="fa-solid fa-bell"></i></a>
+    <a class="Login" href="/proyecto final/login/index.php"><img src="img/user-removebg-preview.png" alt=""></a>
+</nav>
+<!--::::Menu::::-->
+<header>
+    <div class="">
+        <img class="logo" src="img/WhatsApp_Image_2023-03-11_at_12.57.26_PM-removebg-preview.png" alt="">
+    </div>
+    <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+    <nav class="nav" id="nav">
+        <button class="cerrar-menu" id="cerrar"><i class="bi bi-x-circle-fill"></i></button>
+        <ul class="nav-list">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="/menu hamburguesa/salud.html">Salud</a></li>
+            <li><a href="/menu hamburguesa/Noticias5.html">Entretenimiento</a></li>
+            <li class="hover"><a href="/menu hamburguesa/Tecnologia.html">Tecnología</a></li>
+            <li><a href="/menu hamburguesa/Deportes.html">Deportes</a></li>
+            <li><a href="/menu hamburguesa/pais.html">País</a></li>
+            <li><a href="">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!--::::Contenido::::-->
+
+<div class="seccion_pais">
+    <h1 class="tittle">Las Noticias mas recientes del Pais</h1>
+</div>
+    <nav>
+        <div class="fotitos">
+            <img class="i" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFwAXAMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAADAQIEBQYAB//EADcQAAIBAwMBBQYEBQUBAAAAAAECAwAEEQUSITEGE0FRYRQiMnGBkRVSscEjM0Kh8FNicoPxJP/EABgBAAMBAQAAAAAAAAAAAAAAAAABAwIE/8QAIREAAgICAgIDAQAAAAAAAAAAAAECERIhAzETMiJBUQT/2gAMAwEAAhEDEQA/APUiFPwtik2NjiQE0hCnqCPkK4Kg6O1XJDu7mx8Q+lcEkJI3rkdeeacVVRxKTWO7N2Go2na3Wri8aEwXRLRFM7mw/GfLg+tZbppG1FNNmx99er813eMB8VM3VxOfnWjIQOD8TsPpSM0X52ofveINL06xn7UgCRm3/qLGmP3YPuHim7wOe7P2pWkL8bAB8qAOD+Rpd7fmX70g3Doq/Wkw35RQAu4nq2a7jrxVdqaGS1wqvnev8uQoevnU0cDAAA+dAh7FMdKyehSaiO1uoRaj33cNG72xKgqF3joR6Y61qd3rj5VktB1DU7rtRdRX1syQJFKIZO4KBgJFA5PXipz9olYesjYDA6MD8xXDJPB+1Dz6UufIf2qhILh/zNScjq5+9BJ+lcOTQAQMfM0u4+tR3uIo5oom+OXO3gnp+lE4oAf3ngRSb/QU3I6AV2T+X7UACnyY+mOaLyPEVnrDW4tbtm2R3Ns0coVh13cE9Vq/+v3pIOh2SeP2rE9n9d/E+1zwtAIzFbzAMJWbOJE8D8zWzLccEA+BNYDsrrl7qHaVILlIFRYZSCg54Kip8ntEtxr4y0eg7vOlDChhvWmSXMEY/iTxr/yYCqkQ+QT0NdkeRqqk1/S0OPbYyf8AbzRYtY06b+VewH0LhT9jSyRpxkldEidAby3f3hs3HhuvHj5/Wj7x5VFacNPD3S94rA5dWGB0o2+mjLH7z4Cu3HyFDLikLCmI820TWotGs7mOO0driSTerADbwuBn61Jtu2GryXEKMtsVkkUH+EeASB+aqnSvZL427SNIqyQNI4GPdYeGceX61OvrOzsj3kc8rmMBuCDn5eFcqm6s6GlZ6QMHOPA8/SvOezMlvadpIGYhcwy9B6Z/apNnqtzcd634g4KnLBSBgeHNUGqrwkjD3VPhTlNNpihFpNG7PbHR+8EbPcLu4yYTjmspqk9rdX7SxLbSARxqzPESSQoB6nzFUkd2joHAwnvZBHPA/wDKNbSd9GDEpxnAyD6k0vLkqTHGKiyRFam7ue5hRFeUBFChQpGQc4x6GgNJgAez2pPkYB+1GcNvxg5HI4+1LBFJPLHFGu6Z2CL0AJPH70tm01+Gm0PWdP0rQbeW4dQ6GQm3g+Ll+Pdz9fvV3pPaKz1W5NvbxzpIEL/xFAGBjyJ86yD9mtTjyXt1CDqWkT+3NF06K50e/W4fuoFKMpcsr4AAJ4B9KoptEnFG+lkjiG6SRUXplmAGaF7XbNyLmA/9grB9pdXF7pJYXKS93PjuwmDnDYPXpWNWeNxl7S3kPmyjNYl/VBMFwtg+z+p+xXlo4BCZ2EZ+JTx+tbW/le6i71bWRQVKfzuvXw+leWgIQu5+VPBU421u9P1J0sAqjcqoSveN73+c1KLxVGnsFowupdXlitEVi6sMs+3Cj6Hx9K7tdb3VrHbLdB0dlOTG/ukHj61WSX7afdSSQSbGEg5z4f4ad2w1Zbu6ileWALJApZUm3gMByD4Aj0rPcaH0ysxLAdkrlCp4APByB+1absRqMpmksYpJN8n8TIkK5I8OtYnve9xM7qU6bsgjPr6+lHtrmRG3xSKpJ4KGsq4uxPZ65aw6uirv9ox3YBxN4858aEsl3BawGVrhA+0Iyy469Ohqi0rtvdXctvaWlk11KyBMZwzuOregxVhJoPaOe9WW61CyhhQBYbfe21QOhPHXxPrXXk30YoJqF9NEhWS6uDEOoMp5NZHUdUklk7vvGC9TmQkf3rTXugX/ALHMyXNvfuP6A2G8fQA151eTKszr3gVskYzyK5OfNyr6KQpKyZPcyGFnU7wRzg8ACktr9ERt0anLZ5bp6VGiguJbWJwFKTyezxe8Buk44/uKr2vO7dkkVNyEqd2M8VOPFrRR8hptI7MarFch57ZhGvOGdST9PGtTdQ6lcTxyOqQhQSC2AM+HGfTpU8wWq5IsrUHP+iKvBpunHRBI2n2jO68sYhnriu7wbtM5/MkqaMNYXXbNuLiF097+tQfrkVbLf9plUmaBZG4AVuMeZ4qTFplgnHsUBOcbimTRRp9hg/8Aw2/XxTNbw3ZnIgrf6207yyWbROYNsciAt72ehGemfHHjTo7/ALSAEELvwPix1xzUr8OsAVAsoOf9lDm0XTWmw1pGV27gvOAeeabhYKVFn2cu79mkbWZUBB9wHCgdazPaZtcvNRb2KNmhB+IYwc/WrX8J03G72GDJ4+GnPpOnMDH7FCF81BB+9DhqrDLZndJsdcOpR/iDmOJR1LjH61aapqetwXphtNNtrqAKMSsqnn1qUug6WucWg45yXY/vXR6FpkasTaI7L7u5sk4owddhkgnZ/Vb2a87vWNMtobbkbiq8HzAHyqu1S/7SRajcJpdvZSWW/MLSABtvrU9NH02OEstlFljk5BNPXR9NKgmxhyfSniwyR//Z" alt="">
+        </div>
+        <div class="parrafoss">
+            <p class="p2"><b>EE.UU. advierte a Rusia que no toque la tecnología nuclear estadounidense en la planta nuclear de Zaporiyia, en Ucrania</b></p>
+        </div>
+    </nav>
+    <div class="cuadro">
+        <p>Estados Unidos tiene tecnología nuclear sensible en la planta de energía nuclear de Zaporiyia, dentro de Ucrania, y le advirtió a Rusia que no la toque, según una carta que envió el Departamento de Energía de EE.UU. (DOE, por sus siglas en inglés) a la empresa estatal rusa de energía nuclear Rosatom el mes pasado.
+
+            En la carta, que revisó CNN y tiene fecha del 17 de marzo de 2023, la directora de la Oficina de Políticas de No Proliferación del Departamento de Energía, Andrea Ferkile, le dice al director general de Rosatom que la planta de energía nuclear de Zaporiyia en Enerhodar “contiene datos técnicos nucleares de origen estadounidense, cuya exportación está controlada por el gobierno de EE.UU.”.
+            
+            Los bienes, el software y la tecnología están sujetos a los controles de exportación de Estados Unidos cuando es posible que se utilicen de una manera que socave los intereses de seguridad nacional de ese país.</p><br>
+        <p>La carta del Departamento de Energía ocurre mientras las fuerzas rusas continúan controlando la planta, que es la central nuclear más grande de Europa y se encuentra en una parte de la región de Zaporiyia que Rusia ocupó después de su invasión de Ucrania en febrero pasado. La planta ha sido desconectada con frecuencia de la red eléctrica de Ucrania debido a los intensos bombardeos rusos en el área, lo que genera temores en toda Europa de un accidente nuclear.
+
+            Si bien la planta aún la opera físicamente personal de Ucrania, Rosatom está a cargo de administrarla. El Departamento de Energía le advirtió a la empresa estatal en la carta que es “ilegal” que cualquier ciudadano o entidad de Rusia maneje la tecnología estadounidense.
+            
+            CNN se comunicó con Rosatom para obtener comentarios.
+            
+            “Es ilegal, bajo la ley de Estados Unidos, que personas no autorizadas, incluidos, entre otros, ciudadanos rusos y entidades rusas”, dice la carta, “como Rosatom y sus subsidiarias, a sabiendas y deliberadamente accedan, posean, controlen, exporten, almacenen, incauten, revisen, reexporten, envíen, transfieran, copien, manipulen dicha tecnología o datos técnicos, o dirijan o autoricen a otros a hacer lo mismo, sin que dichas entidades rusas se conviertan en destinatarios autorizados por el secretario del Departamento de Energía de EE.UU.".
+            
+            No está claro si Rosatom ha respondido a la carta. La Administración Nacional de Seguridad Nuclear del Departamento de Energía corroboró la autenticidad de la carta en un comunicado a CNN.</p><br>
+        <p>Las cartas las reportó por primera vez el medio de comunicación ucraniano RBC.
+
+            “La Administración Nacional de Seguridad Nuclear del Departamento de Energía puede confirmar que la carta es legítima”, dijo Shayela Hassan, subdirectora de asuntos públicos de la Administración Nacional de Seguridad Nuclear.
+            
+            Hassan añadió: “El secretario de Energía tiene la responsabilidad legal de autorizar la transferencia de tecnología nuclear civil no clasificada y la asistencia a actividades extranjeras de energía atómica. El DOE no comenta sobre actividades regulatorias”.
+            
+            Otra carta de Ferkile al inspector General del Departamento de Energía, revisada por CNN y fechada el 24 de octubre de 2022, describe la tecnología que EE.UU. ha exportado a Ucrania para su uso en la planta de Zaporiyia y reitera que el departamento “no tiene registro de ninguna autorización actual para transferir esta tecnología y datos técnicos a cualquier ciudadano o entidad rusa”.
+            
+            La Oficina de Energía Nuclear del Departamento de Energía ha hecho público el apoyo de EE.UU. a la planta y declaró en su sitio web en junio de 2021 que “Estados Unidos ayudó a implementar nuevos procedimientos y operaciones de mantenimiento en el reactor que, en última instancia, deberían fortalecer la seguridad energética” en Ucrania.</p><br>
+    </div>
+    <!--::::Pie de Pagina::::-->
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Somos una pequeña empresa de telecomunicaciones que nos encargamos de mantener al pueblo informado con toda la verdad y las más recientes informaciones.</p>
+                <p>Manteniendo al pueblo Bien informado</p>
+            </div>
+            <div class="box">
+
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="https://www.facebook.com/profile.php?id=100090800659419" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/elpuebloinforma/" class="fa fa-instagram"></a>
+                    <a href="https://twitter.com/ElPuebloInform" class="fa fa-twitter"></a>
+                    <a href="https://www.youtube.com/channel/UCAOPzbyJ3J-hwAVx-Ia6ptA" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="grupo-2">
+            <small>&copy; 2023 <b>El Pueblo Informa</b> - Todos los Derechos Reservados. </small>
+        </div>
+    </footer>
+</body>
+</html>
